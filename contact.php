@@ -7,6 +7,22 @@
   <title>Doe Resume</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <style>
+      body {
+  background: linear-gradient(to right, #000080 0%, #000000 100%), url('/imgpath/kim.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-size: contain;
+  }
+}
+
+
+
       footer {
   background-color: #333;
   color: white;
